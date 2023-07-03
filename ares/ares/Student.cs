@@ -16,4 +16,4 @@ public class Cristi : IStudent
     {
         Console.WriteLine("My name is Cristi");
     }
-}
+}git check
