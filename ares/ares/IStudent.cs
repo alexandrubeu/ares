@@ -1,6 +1,8 @@
-namespace ares;
-
-public interface IStudent
-{
-    public void SayMyName();
+namespace ares {
+    public interface IStudent
+    {
+        public void SayMyName();
+    }
 }
+
+
