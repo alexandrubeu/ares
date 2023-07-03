@@ -9,3 +9,11 @@ public class Student:IStudent
         Console.WriteLine($"My name is {name}");
     }
 }
+
+public class Cristi : IStudent
+{
+    public void SayMyName()
+    {
+        Console.WriteLine("My name is Cristi");
+    }
+}
