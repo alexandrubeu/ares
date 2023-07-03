@@ -1,3 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-Console.WriteLine("Entry Point");
+using ares;
+
+IStudent student = new Student();
+student.SayMyName();
