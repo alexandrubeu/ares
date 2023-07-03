@@ -4,3 +4,5 @@ using ares;
 
 IStudent student = new Student();
 student.SayMyName();
+Cristi cstudent = new Cristi();
+cstudent.SayMyName();
