@@ -24,5 +24,11 @@ public class Student1 : IStudent
     public void SayMyName()
     {
         Console.WriteLine("My name is Lungu Igor");
+
+public class Cristi : IStudent
+{
+    public void SayMyName()
+    {
+        Console.WriteLine("My name is Cristi");
     }
 }

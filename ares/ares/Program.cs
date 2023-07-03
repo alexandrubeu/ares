@@ -2,6 +2,8 @@
 
 using ares;
 
+Cristi cstudent = new Cristi();
+cstudent.SayMyName();
 
 IStudent student1 = new Student();
 student1.SayMyName();
