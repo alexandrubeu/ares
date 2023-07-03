@@ -1,6 +1,15 @@
-﻿namespace ares;
+namespace ares;
 
-public class Student:IStudent
+public class StudentEduard : IStudent
+{
+    public void SayMyName()
+    {
+        Console.WriteLine("My name is Eduard");
+    }
+}
+
+
+public class Student : IStudent
 {
     public void SayMyName()
     {
@@ -9,6 +18,12 @@ public class Student:IStudent
         Console.WriteLine($"My name is {name}");
     }
 }
+
+public class Student1 : IStudent
+{
+    public void SayMyName()
+    {
+        Console.WriteLine("My name is Lungu Igor");
 
 public class Cristi : IStudent
 {
