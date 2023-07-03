@@ -9,12 +9,20 @@ public class StudentEduard : IStudent
 }
 
 
-public class Student:IStudent
+public class Student : IStudent
 {
     public void SayMyName()
     {
         string name = "";
         name = Console.ReadLine();
         Console.WriteLine($"My name is {name}");
+    }
+}
+
+public class Student1 : IStudent
+{
+    public void SayMyName()
+    {
+        Console.WriteLine("My name is Lungu Igor");
     }
 }
