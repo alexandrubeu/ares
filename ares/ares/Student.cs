@@ -1,4 +1,13 @@
-﻿namespace ares;
+namespace ares;
+
+public class StudentEduard : IStudent
+{
+    public void SayMyName()
+    {
+        Console.WriteLine("My name is Eduard");
+    }
+}
+
 
 public class Student:IStudent
 {
